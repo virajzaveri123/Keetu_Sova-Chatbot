@@ -23,3 +23,18 @@ git push origin <branch>
 
 #
 git remote -v
+git status
+
+###
+
+#ignores file called filename
+filename.txt
+
+#ignores all folders named dir
+dir/
+
+#ignores all files with extension .txt
+*.txt
+
+#ignores just folder with path
+/dir/
