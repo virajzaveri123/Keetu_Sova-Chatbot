@@ -1,6 +1,5 @@
-version: "3.1"
-
 nlu:
+
 - intent: greet
   examples: |
     - hey
@@ -16,10 +15,11 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - Hello Sir, all systems are working and ready to be deployed
 
 - intent: goodbye
   examples: |
-    - cu
+    - It was good to converse with you
     - good by
     - cee you later
     - good night
@@ -89,3 +89,67 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: TSDW_department
+  examples: |
+   -which department are you from?
+
+- intent: TSDW_position
+  examples: |
+   -what is your position in tsdw?
+
+- intent: TSDW_aquaintances
+  examples: |   
+   -who are your known aquaintances in tsdw?
+
+- intent: TSDW_info1
+  examples: |
+   -what is the full form of tsdw?
+
+- intent: TSDW_info2
+  examples: |
+   -How many members are there in tsdw?
+
+- intent: TSDW_info3
+  examples: |
+   -who are the faculty incharges of tsdw?
+
+- intent: TSDW_info4
+  examples: |
+   -How many posts are there in tsdw?
+
+- intent: TSDW_info5
+  examples: |
+   -How many domains are there in the council?
+
+- intent: TSDW_General_Team
+  examples: |
+   -How many members are there in the General Team?
+
+- intent: TSDW_Cultural_Team
+  examples: |
+   -How many members are there in the Cultural Team?
+
+- intent: TSDW_Sports_Team
+  examples: |
+   -How many members are there in the Sports Team?
+
+- intent: TSDW_Discipline_Team
+  examples: |
+   -How many members are there in the Discipline Team?      
+
+- intent: TSDW_Technical_Team
+  examples: | 
+   -How many members are there in the Technical Team?
+
+- intent: TSDW_Outreach_Team
+  examples: |   
+   -How many members are there in the Outreach Team?
+
+- intent: TSDW_Academic_Team
+  examples: |   
+   -How many members are there in the Academic Team?
+
+- intent: TSDW_HSD_Team
+  examples: |   
+   -How many members are there in the HSD Team?

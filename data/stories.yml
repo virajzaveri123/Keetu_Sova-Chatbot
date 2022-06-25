@@ -28,3 +28,65 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+ 
+- story: Council_Bot
+  steps:
+  - intent: TSDW_department
+  - action: utter_TSDW_department
+  - intent: TSDW_position
+  - action: utter_TSDW_position
+  - intent: TSDW_aquaintances
+  - action: utter_TSDW_aquaintances
+
+- story: Council_info
+  steps:
+  - intent: TSDW_info1
+  - action: utter_about_council_info1
+  - intent: TSDW_info2
+  - action: utter_about_council_info2
+  - intent: TSDW_info3
+  - action: utter_about_council_info3
+  - intent: TSDW_info4
+  - action: utter_about_council_info4
+  - intent: TSDW_info5
+  - action: utter_about_council_info5
+
+- story: General_Team_info
+  steps:
+  - intent: TSDW_General_Team
+  - action: utter_about_General_Team
+
+- story: Cultural_Team_info
+  steps:
+  - intent: TSDW_Cultural_Team
+  - action: utter_about_Cultural_Team
+
+- story: Sports_Team_info
+  steps:
+  - intent: TSDW_Sports_Team
+  - action: utter_about_Sports_Team  
+
+- story: Discipline_Team_info
+  steps:
+  - intent: TSDW_Discipline_Team
+  - action: utter_about_Discipline_Team
+
+- story: Technical_Team_info
+  steps:
+  - intent: TSDW_Technical_Team
+  - action: utter_about_Technical_Team
+
+- story: Academic_Team_info
+  steps:
+  - intent: TSDW_Academic_Team
+  - action: utter_about_Academic_Team
+
+- story: Outreach_Team_info
+  steps:
+  - intent: TSDW_Outreach_Team
+  - action: utter_about_Outreach_Team
+
+- story: HSD_Team_info
+  steps:
+  - intent: TSDW_HSD_Team
+  - action: utter_about_HSD_Team

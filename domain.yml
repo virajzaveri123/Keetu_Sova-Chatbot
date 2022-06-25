@@ -1,0 +1,101 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - TSDW_verification
+  - TSDW_department
+  - TSDW_position
+  - TSDW_aquaintances
+  - TSDW_info1
+  - TSDW_info2
+  - TSDW_info3
+  - TSDW_info4
+  - TSDW_info5
+  - TSDW_General_Team
+  - TSDW_Cultural_Team
+  - TSDW_Sports_Team
+  - TSDW_Technical_Team
+  - TSDW_Discipline_Team
+  - TSDW_Academic_Team
+  - TSDW_Outreach_Team
+  - TSDW_HSD_Team
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa. My name is Keetu_Sova."
+  
+  utter_TSDW_department:
+  - text: "I am a bot who is from Comps+AI&DS department"
+
+  utter_TSDW_position:
+  - text: "I am a chatbot created to help the council.."
+  
+  utter_TSDW_aquaintances:
+  - text: "Shailja and Viraj are the known acquaintances of me..I am your friendly neighbourhood bot :) always ready to help"
+
+  utter_about_council_info1:
+  - text: "The full form of TSDW is TCET-Student Development and Welfare Association."
+  
+  utter_about_council_info2:
+  - text: "there are 100 plus members in council but there are 62 post holders"
+
+  utter_about_council_info3: 
+  - text: "Dr. Manish Rana and Mr. Vikas Singh are the council faculty In-charges"
+
+  utter_about_council_info4:
+  - text: "There are 62 posts in TSDW"
+
+  utter_about_council_info5:
+  - text: "There are 8 domains in TSDW council namely General, Cultural, Sports, Discipline, Technical, Academic, Outreach, HSD"
+
+  utter_about_General_Team:
+  - text: "The General Team Consist of General Secretary, Joint General Secretary, General Advisor and Program Co-ordinator.Apart from these The support Team consists of Lady Representative, Treasurer, Head of Marketing, Head of PR, Hospitality Head, Creative Head, Social Media Manager and Junior Council"
+
+  utter_about_Cultural_Team:
+  - text: "The Cultural Team Consist of Cultural Secretary, Joint Cultural Secretary, Cultural Advisor and Cultural Co-ordinator"
+
+  utter_about_Sports_Team:
+  - text: "The Sports Team Consist of Sports Secretary, Joint Sports Secretary, Sports Advisor and sports Co-ordinator"
+
+  utter_about_Discipline_Team:
+  - text: "The Discipline Team Consist of Discipline Secretary, Joint Disciple Secretary, Discipline Advisor and Discipline Co-ordinator"
+
+  utter_about_Technical_Team:
+  - text: "The Technical Team Consist ofTechnical Secretary, Joint Technical Secretary, Technical Advisor and Technical Co-ordinator"
+
+  utter_about_Academic_Team:
+  - text: "The Academic Team Consist of Academic Secretary, Joint Academic Secretary, Academic Advisor and Academic Co-ordinator"
+
+  utter_about_Outreach_Team:
+  - text: "The Outereach Team Consist of Outreach Secretary, Joint Outreach Secretary, OutreachAdvisor and Outreach Co-ordinator"
+
+  utter_about_HSD_Team:
+  - text: "The HSD Team Consist of HSD Secretary, Joint HSD Secretary, HSD Advisor and HSD Co-ordinator"
+
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
